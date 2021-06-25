@@ -95,3 +95,8 @@
 {"message":"Thu Jun 24 2021 21:32:44 GMT-0300 (Horário Padrão de Brasília) - status: \"CEP inválido\"","level":"info"}
 {"message":"Thu Jun 24 2021 21:32:45 GMT-0300 (Horário Padrão de Brasília) - status: \"eyJhbGciOiJIUzI1NiJ9.YWRtaW4.L3zqZePp1urbCK5yiapsxgV3AE66c_V5Ub4N4LVjQvs\"","level":"info"}
 {"message":"Thu Jun 24 2021 21:32:45 GMT-0300 (Horário Padrão de Brasília) - status: \"Usuário ou senha inválido\"","level":"info"}
+{"message":"Thu Jun 24 2021 21:50:53 GMT-0300 (Horário Padrão de Brasília) - status: {\"cep\":\"14401-224\",\"rua\":\"Rua Pompílio Liporoni\",\"bairro\":\"Jardim Boa Esperança\",\"cidade\":\"Franca\",\"uf\":\"SP\"}","level":"info"}
+{"message":"Thu Jun 24 2021 21:50:56 GMT-0300 (Horário Padrão de Brasília) - status: {\"cep\":\"14401-000\",\"rua\":\"Avenida Doutor Hélio Palermo\",\"bairro\":\"Prolongamento Vila Duque de Caxias\",\"cidade\":\"Franca\",\"uf\":\"SP\"}","level":"info"}
+{"message":"Thu Jun 24 2021 21:50:56 GMT-0300 (Horário Padrão de Brasília) - status: \"CEP inválido\"","level":"info"}
+{"message":"Thu Jun 24 2021 21:50:56 GMT-0300 (Horário Padrão de Brasília) - status: \"eyJhbGciOiJIUzI1NiJ9.YWRtaW4.L3zqZePp1urbCK5yiapsxgV3AE66c_V5Ub4N4LVjQvs\"","level":"info"}
+{"message":"Thu Jun 24 2021 21:50:56 GMT-0300 (Horário Padrão de Brasília) - status: \"Usuário ou senha inválido\"","level":"info"}
