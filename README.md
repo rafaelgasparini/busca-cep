@@ -5,11 +5,17 @@ API para realização de consultas de CEPs utilizando a API do VIACEP.
 Se o CEP digitado não for encontrado, é alterado os valores finais para '0' até encontrar o endereço, caso não encontre o endereço mesmo assim é retornado uma menssagem de API inválida.
 Ao digitar o CEP é validado removendo letras e caracteres especiais.
 
+## Tecnologia Escolhida ##
+Para o desenvolvimento desse projeto foi escolhido a linguagem `NODE JS` 
+por ser uma linguagem leve de alta capacidade de escala e boa flexibilidade mantendo o custo baixo sem perder a performance.
+
 ### Requisitos: ###
 `Node.Js` link para download: https://nodejs.org/en/
+`NPM`
+`Express`
+`Typescript`
 
 ### Instalação: ###
-Primeiro clone o repositorio.
 Após clonar o repositorio, digite `npm install` na raiz do projeto para realizar a instalação dos pacotes de dependência..
 
 ## Execução  da API
@@ -45,7 +51,6 @@ Obs: Usar esse payload.
 }
 - Busca por CEP: <br>
 [GET]  http://localhost:4020/api/cep/{cep} <br><br>
-
 
 
 - #### Documentação.
