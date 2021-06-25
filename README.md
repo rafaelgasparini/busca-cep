@@ -58,6 +58,42 @@ Para documentação da API foi utilizado o swagger
 - Documentação Swagger: <br>
 [GET] http://localhost:4020/api/cep/doc <br><br>
 
+### Diretórios
+
+```bash
+busca-cep
+       |-- src
+           |-- api
+	   	|-- auth
+			|-- authController.ts
+			|-- authUseCase.ts
+		|-- cep
+			|-- cepController.ts
+			|-- cepRepository.ts
+			|-- cepUseCase.ts
+		|-- ping
+			|-- pingController.ts
+	   |-- middlewares
+	   	|-- auth.ts
+	   |-- routes
+	   	|-- index.ts
+	   |-- utils
+	   	|-- auth.ts
+		|-- logger.ts
+		|-- swagger.ts
+       |-- teste
+           |-- test.js
+       |-- .env
+       |-- .gitignore
+       |-- README.md
+       |-- app.ts
+       |-- error.log
+       |-- info.log
+       |-- jest.config.js
+       |-- packge.json
+       |-- setup.js
+       |-- tsconfig.json
+```
 
 - ### Oque ocorre nesse processo do protocolo HTTP entre o Client e o Server
 É disparado uma requisição HTTP com base no endereço de domínio especificada para o servidor responsável fazer a resolução do DNS, a partir dai conseguir fechar um 'HANDSHAKE' para o servidor de destino onde está a aplicação.
