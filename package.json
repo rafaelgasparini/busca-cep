@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "build": "tsc",
-    "test": "mocha ./teste/test.js",
+    "test": "jest --force-exit ",
     "dev": "ts-node-dev app.ts"
   },
   "author": "Rafael Gasparini",
@@ -18,6 +18,8 @@
     "@types/morgan": "^1.9.2",
     "@types/swagger-jsdoc": "^6.0.0",
     "@types/swagger-ui-express": "^4.1.2",
+    "jest": "^27.0.5",
+    "ts-jest": "^27.0.3",
     "ts-node-dev": "^1.1.6",
     "typescript": "^4.3.4"
   },
@@ -29,10 +31,8 @@
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
     "jsonwebtoken": "^8.5.1",
-    "mocha": "^9.0.1",
     "morgan": "^1.10.0",
-    "should": "^13.2.3",
-    "superagent": "^6.1.0",
+    "supertest": "^6.1.3",
     "swagger-jsdoc": "^6.1.0",
     "swagger-ui-express": "^4.1.6",
     "winston": "^3.3.3"
