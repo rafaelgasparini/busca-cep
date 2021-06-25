@@ -57,3 +57,15 @@ Obs: Usar esse payload.
 Para documentação da API foi utilizado o swagger
 - Documentação Swagger: <br>
 [GET] http://localhost:4020/api/cep/doc <br><br>
+
+
+- ### Oque ocorre nesse processo do protocolo HTTP entre o Client e o Server
+É disparado uma requisição HTTP com base no endereço de domínio especificada para o servidor responsável fazer a resolução do DNS, a partir dai conseguir fechar um 'HANDSHAKE' para o servidor de destino onde está a aplicação.
+Após esse direcionamento feito pela resolução de DNS será redirecionado para o serviço de hospedagem, onde ele pode estar configurado para um cache ou não, se existir o cache é retornado a pagina solicitada, caso contrario ele é enviado para o servidor responsável pelo sistema.
+O servidor recebe a requisição verifica e encaminha para a porta da aplicação correta, que no caso pode ser uma aplicação front-end retornando a pagina do site.
+
+
+
+
+
+
