@@ -28,7 +28,7 @@ npm run dev
 assim iniciará a aplicação.
 A aplicação estará disponível no endereço: `http://localhost:4020/`
 
-**ATENÇÃO:** Esse endereço é valido caso as variáveis dentro do arquivo .env na raiz do proejto ` process.env.HOST` e ` process.env.POST` não estejam
+**ATENÇÃO:** Esse endereço é valido caso as variáveis dentro do arquivo .env na raiz do projeto ` process.env.HOST` e ` process.env.POST` não estejam
 configuradas com outro valor
 
 ### Testes: ###
